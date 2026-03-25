@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "PixelSafe",
+    "tagline": "As suas imagens nunca saem do seu navegador"
+  },
+  "dropzone": {
+    "title": "Arraste as suas imagens aqui",
+    "subtitle": "ou clique para selecionar ficheiros",
+    "formats": "Suporta JPEG, PNG, WebP, GIF (estático), HEIC",
+    "duplicatesSkipped": "{{count}} duplicada(s) ignorada(s)"
+  },
+  "settings": {
+    "title": "Definições de otimização",
+    "quality": "Qualidade",
+    "format": "Formato de saída",
+    "resize": "Redimensionar",
+    "resizeEnabled": "Ativar redimensionamento",
+    "mode": "Modo",
+    "modes": {
+      "width": "Por largura",
+      "height": "Por altura",
+      "percentage": "Por percentagem",
+      "maxDimension": "Dimensão máxima"
+    },
+    "value": "Valor",
+    "pixels": "px",
+    "percent": "%",
+    "maintainAspectRatio": "Manter proporção",
+    "width": "Largura",
+    "height": "Altura",
+    "auto": "auto",
+    "transparencyWarning": "JPEG não suporta transparência — as áreas transparentes ficarão brancas",
+    "language": "Idioma"
+  },
+  "images": {
+    "original": "Original",
+    "optimized": "Otimizado",
+    "savings": "{{percent}}% mais pequeno",
+    "dimensions": "{{width}} × {{height}}",
+    "alreadyOptimal": "Já otimizada",
+    "keptOriginal": "Original mantido"
+  },
+  "actions": {
+    "optimize": "Otimizar",
+    "optimizing": "A otimizar...",
+    "cancel": "Cancelar",
+    "download": "Transferir",
+    "downloadAll": "Transferir tudo como ZIP",
+    "clear": "Limpar tudo",
+    "remove": "Remover",
+    "confirm": "Confirmar"
+  },
+  "results": {
+    "title": "Resultados",
+    "totalSaved": "Poupança total: {{saved}}",
+    "file": "Ficheiro",
+    "originalSize": "Original",
+    "newSize": "Otimizado",
+    "reduction": "Redução"
+  },
+  "errors": {
+    "unsupportedFormat": "Formato de ficheiro não suportado",
+    "imageTooLarge": "A imagem é demasiado grande (máx. {{max}} megapíxeis)",
+    "processingFailed": "Falha ao processar a imagem",
+    "animated_gif_not_supported": "GIFs animados não são suportados para preservar a animação",
+    "heicNotSupported": "O seu navegador não suporta HEIC — experimente o Safari ou converta para JPEG"
+  },
+  "privacy": {
+    "badge": "100% Privado",
+    "description": "Todo o processamento acontece no seu navegador. As suas imagens nunca são enviadas para nenhum servidor."
+  },
+  "footer": {
+    "buyMeACoffee": "Oferece-me um café",
+    "github": "Ver no GitHub"
+  },
+  "confirm": {
+    "clearTitle": "Limpar todas as imagens?",
+    "clearMessage": "Todas as imagens e resultados serão removidos. Não é possível desfazer."
+  }
+}

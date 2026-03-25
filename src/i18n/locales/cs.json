@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "PixelSafe",
+    "tagline": "Vaše obrázky nikdy neopustí váš prohlížeč"
+  },
+  "dropzone": {
+    "title": "Přetáhněte obrázky sem",
+    "subtitle": "nebo klikněte pro výběr souborů",
+    "formats": "Podporuje JPEG, PNG, WebP, GIF (statický), HEIC",
+    "duplicatesSkipped": "{{count}} duplikát(ů) přeskočeno"
+  },
+  "settings": {
+    "title": "Nastavení optimalizace",
+    "quality": "Kvalita",
+    "format": "Výstupní formát",
+    "resize": "Změnit velikost",
+    "resizeEnabled": "Povolit změnu velikosti",
+    "mode": "Režim",
+    "modes": {
+      "width": "Podle šířky",
+      "height": "Podle výšky",
+      "percentage": "Podle procent",
+      "maxDimension": "Maximální rozměr"
+    },
+    "value": "Hodnota",
+    "pixels": "px",
+    "percent": "%",
+    "maintainAspectRatio": "Zachovat poměr stran",
+    "width": "Šířka",
+    "height": "Výška",
+    "auto": "auto",
+    "transparencyWarning": "JPEG nepodporuje průhlednost — průhledné oblasti budou bílé",
+    "language": "Jazyk"
+  },
+  "images": {
+    "original": "Originál",
+    "optimized": "Optimalizováno",
+    "savings": "{{percent}}% menší",
+    "dimensions": "{{width}} × {{height}}",
+    "alreadyOptimal": "Již optimální",
+    "keptOriginal": "Zachován originál"
+  },
+  "actions": {
+    "optimize": "Optimalizovat",
+    "optimizing": "Optimalizace...",
+    "cancel": "Zrušit",
+    "download": "Stáhnout",
+    "downloadAll": "Stáhnout vše jako ZIP",
+    "clear": "Vymazat vše",
+    "remove": "Odstranit",
+    "confirm": "Potvrdit"
+  },
+  "results": {
+    "title": "Výsledky",
+    "totalSaved": "Celková úspora: {{saved}}",
+    "file": "Soubor",
+    "originalSize": "Originál",
+    "newSize": "Optimalizováno",
+    "reduction": "Redukce"
+  },
+  "errors": {
+    "unsupportedFormat": "Nepodporovaný formát souboru",
+    "imageTooLarge": "Obrázek je příliš velký (max {{max}} megapixelů)",
+    "processingFailed": "Zpracování obrázku selhalo",
+    "animated_gif_not_supported": "Animované GIFy nejsou podporovány pro zachování animace",
+    "heicNotSupported": "Váš prohlížeč nepodporuje HEIC — zkuste Safari nebo převeďte na JPEG"
+  },
+  "privacy": {
+    "badge": "100% Soukromé",
+    "description": "Veškeré zpracování probíhá ve vašem prohlížeči. Vaše obrázky nejsou nikdy nahrány na žádný server."
+  },
+  "footer": {
+    "buyMeACoffee": "Kupte mi kávu",
+    "github": "Zobrazit na GitHubu"
+  },
+  "confirm": {
+    "clearTitle": "Vymazat všechny obrázky?",
+    "clearMessage": "Všechny obrázky a výsledky budou odstraněny. Tuto akci nelze vrátit zpět."
+  }
+}

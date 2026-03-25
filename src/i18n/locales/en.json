@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "PixelSafe",
+    "tagline": "Your images never leave your browser"
+  },
+  "dropzone": {
+    "title": "Drop your images here",
+    "subtitle": "or click to select files",
+    "formats": "Supports JPEG, PNG, WebP, GIF (static), HEIC",
+    "duplicatesSkipped": "{{count}} duplicate(s) skipped"
+  },
+  "settings": {
+    "title": "Optimization Settings",
+    "quality": "Quality",
+    "format": "Output Format",
+    "resize": "Resize",
+    "resizeEnabled": "Enable resize",
+    "mode": "Mode",
+    "modes": {
+      "width": "By width",
+      "height": "By height",
+      "percentage": "By percentage",
+      "maxDimension": "Max dimension"
+    },
+    "value": "Value",
+    "pixels": "px",
+    "percent": "%",
+    "maintainAspectRatio": "Maintain aspect ratio",
+    "width": "Width",
+    "height": "Height",
+    "auto": "auto",
+    "transparencyWarning": "JPEG does not support transparency — transparent areas will become white",
+    "language": "Language"
+  },
+  "images": {
+    "original": "Original",
+    "optimized": "Optimized",
+    "savings": "{{percent}}% smaller",
+    "dimensions": "{{width}} × {{height}}",
+    "alreadyOptimal": "Already optimal",
+    "keptOriginal": "Kept original"
+  },
+  "actions": {
+    "optimize": "Optimize",
+    "optimizing": "Optimizing...",
+    "cancel": "Cancel",
+    "download": "Download",
+    "downloadAll": "Download all as ZIP",
+    "clear": "Clear all",
+    "remove": "Remove",
+    "confirm": "Confirm"
+  },
+  "results": {
+    "title": "Results",
+    "totalSaved": "Total saved: {{saved}}",
+    "file": "File",
+    "originalSize": "Original",
+    "newSize": "Optimized",
+    "reduction": "Reduction"
+  },
+  "errors": {
+    "unsupportedFormat": "Unsupported file format",
+    "imageTooLarge": "Image is too large (max {{max}} megapixels)",
+    "processingFailed": "Failed to process image",
+    "animated_gif_not_supported": "Animated GIFs are not supported to preserve animation",
+    "heicNotSupported": "Your browser does not support HEIC — try Safari or convert to JPEG"
+  },
+  "privacy": {
+    "badge": "100% Private",
+    "description": "All processing happens in your browser. Your images are never uploaded to any server."
+  },
+  "footer": {
+    "buyMeACoffee": "Buy me a coffee",
+    "github": "View on GitHub"
+  },
+  "confirm": {
+    "clearTitle": "Clear all images?",
+    "clearMessage": "All images and results will be removed. This cannot be undone."
+  }
+}
