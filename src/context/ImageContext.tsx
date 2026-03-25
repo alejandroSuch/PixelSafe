@@ -14,7 +14,7 @@ const ImageContext = createContext<ImageContextValue | null>(null);
 export function ImageProvider({ children }: { children: ReactNode }) {
   const [images, dispatch] = useReducer(imageReducer, []);
   const [skippedCount, setSkippedCount] = useState(0);
-  const timerRef = useRef<ReturnType<typeof setTimeout>>();
+  const timerRef = useRef<ReturnType<typeof setTimeout>>(undefined);
 
   const notifySkipped = useCallback((count: number) => {
     clearTimeout(timerRef.current);
