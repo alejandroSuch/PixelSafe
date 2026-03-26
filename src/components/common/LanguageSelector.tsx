@@ -9,7 +9,7 @@ export function LanguageSelector() {
       value={i18n.language?.split('-')[0] ?? 'en'}
       onChange={(e) => i18n.changeLanguage(e.target.value)}
       aria-label={t('settings.language')}
-      className="rounded-md border border-gray-300 bg-white px-2 py-1 text-xs text-gray-700 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300"
+      className="rounded-md border border-gray-300 bg-white pl-2 pr-7 py-1 text-xs text-gray-700 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300"
     >
       {SUPPORTED_LANGUAGES.map((lang) => (
         <option key={lang.code} value={lang.code}>
